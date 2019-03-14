@@ -21,7 +21,8 @@ steps:
   displayName: 'dotnet publish'
   inputs:
     command: publish
-    publishWebProjects: true
+    publishWebProjects: false
+    projects: SignalRDemo.App/SignalRDemo.App.csproj
     arguments: '--configuration $(buildConfiguration)  --output $(build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
