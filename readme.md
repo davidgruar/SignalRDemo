@@ -1,4 +1,11 @@
-# SignalR Demo preparation
+## Getting started
+```
+cd SignalRDemo.App
+dotnet watch run
+```
+This should kick off an `npm install` and start a react development server with live reloading enabled.
+
+## SignalR Demo preparation
 
 1. Fork this repo to your own GitHub account.
 2. Create an app service in your personal Azure subscription.
